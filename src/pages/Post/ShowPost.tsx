@@ -22,7 +22,7 @@ export default function App() {
 export const ShowPost = () => {
   const { theme } = useTheme();
   return (
-    <main className="h-[100vh] p-4">
+    <main className="flex flex-col gap-6 p-4 pr-0">
       <div data-color-mode={theme}>
         <MDEditor.Markdown source={str} />
       </div>
