@@ -6,7 +6,7 @@ export const Home = () => {
   const loading = false;
   const posts = [1, 2, 3, 4, 5, 6, 7, 8];
   return (
-    <main className="mt-2 px-2 lg:px-4 flex items-center justify-center gap-8 flex-wrap">
+    <main className="mt-1 px-2 lg:px-4 flex items-center justify-center gap-12 flex-wrap">
       {loading
         ? [1, 2, 3, 4, 5, 6, 7, 8].map((i) => <SkeletonPostCard key={i} />)
         : posts.map((post) => <PostCard key={post} />)}

@@ -24,18 +24,8 @@ const CustomBreadcrumb = () => {
   }, [location]);
 
   return (
-    <Breadcrumb className="my-1 py-1 ml-4 border-y-2">
+    <Breadcrumb className="py-1 ml-4 border-y">
       <BreadcrumbList>
-        <React.Fragment>
-          <BreadcrumbItem>
-            <BreadcrumbLink asChild>
-              <Link className="capitalize" to={`/`}>
-                Home
-              </Link>
-            </BreadcrumbLink>
-          </BreadcrumbItem>
-          {location.pathname === "/" ? "" : <BreadcrumbSeparator />}
-        </React.Fragment>
         {breadcrumbs.map((breadcrumb, index) => (
           <React.Fragment key={breadcrumb.path}>
             <BreadcrumbItem>
