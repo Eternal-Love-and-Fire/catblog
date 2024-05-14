@@ -20,7 +20,7 @@ export const Nav = ({ classname }: { classname?: string }) => {
           <SignUp/>
         </>
       )}
-      <Link to={`/posts/create`} className={buttonVariants({ variant: "ghost" }) + " font-bold tracking-wider"}>Create Post</Link>
+      <Link to={`/catblog/posts/create`} className={buttonVariants({ variant: "ghost" }) + " font-bold tracking-wider"}>Create Post</Link>
     </nav>
   );
 };
