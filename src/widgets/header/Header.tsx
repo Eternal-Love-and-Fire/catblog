@@ -1,10 +1,11 @@
+import { FaGithub } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+
 import { ModeToggle } from "@/components/mode-toggle";
 import { Input } from "@/components/ui/input";
 import { BurgerMenu } from "@/components/user-ui/BurgerMenu";
 import { Logo } from "@/components/user-ui/Logo";
 import { Nav } from "@/components/user-ui/Nav";
-import { FaGithub } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (

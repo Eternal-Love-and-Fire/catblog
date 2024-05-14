@@ -4,11 +4,11 @@ import { DefaultRoot } from "./roots/DefaultRoot";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/catblog/",
     element: <DefaultRoot />,
     children: [
       {
-        path: "/",
+        path: "/catblog/",
         element: <Home />,
       },
     ],

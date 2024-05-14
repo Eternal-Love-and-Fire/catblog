@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Logo = () => {
   return (
-    <Link to='/' className="opacity-70 hover:opacity-100 duration-300">
+    <Link to='/catblog/' className="opacity-70 hover:opacity-100 duration-300">
       <IoLogoOctocat />
     </Link>
   );
