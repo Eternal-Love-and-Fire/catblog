@@ -18,10 +18,10 @@ export const PostCard = () => {
         </div>
         <div className="flex gap-2">
           <Link to={`#`}>
-            <IoLink />
+            <IoLink className="hover:opacity-50 duration-300 active:opacity-80"/>
           </Link>
           <Link to={`#`}>
-            <IoOpenOutline />
+            <IoOpenOutline className="hover:opacity-50 duration-300 active:opacity-80"/>
           </Link>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button, buttonVariants } from "../ui/button";
+import { LogIn } from "./Auth/LogIn";
+import { SignUp } from "./Auth/SignUp";
 
 export const Nav = ({ classname }: { classname?: string }) => {
   const registered = false;
@@ -14,8 +16,8 @@ export const Nav = ({ classname }: { classname?: string }) => {
         </>
       ) : (
         <>
-          <Button variant={"ghost"}>Log In</Button>
-          <Button variant={"ghost"}>Sign Up</Button>
+          <LogIn />
+          <SignUp/>
         </>
       )}
       <Link to={`/posts/create`} className={buttonVariants({ variant: "ghost" }) + " font-bold tracking-wider"}>Create Post</Link>

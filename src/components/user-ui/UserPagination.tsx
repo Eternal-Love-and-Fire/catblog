@@ -10,7 +10,7 @@ import {
 
 export const UserPagination = () => {
   return (
-    <Pagination>
+    <Pagination className="justify-self-center">
       <PaginationContent>
         <PaginationItem>
           <PaginationPrevious href="#" />

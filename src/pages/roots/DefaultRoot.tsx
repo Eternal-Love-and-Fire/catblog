@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom'
 
 import { Header } from '@/widgets/header/Header'
 import CustomBreadcrumb from '@/components/user-ui/CustomBreadcrumb'
+import { Toaster } from '@/components/ui/toaster'
 
 export const DefaultRoot = () => {
   return (
@@ -9,6 +10,7 @@ export const DefaultRoot = () => {
         <Header />
         <CustomBreadcrumb />
         <Outlet />
+        <Toaster />
     </div>
   )
 }
